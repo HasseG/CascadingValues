@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\uge50CascadingParametersExp.props" />
+</Project>

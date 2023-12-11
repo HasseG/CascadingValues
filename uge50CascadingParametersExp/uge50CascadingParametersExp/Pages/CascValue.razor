@@ -1,0 +1,19 @@
+﻿@page "/casc"
+
+<PageTitle>Cascading Value</PageTitle>
+
+<p>This is a cascading value: @cascadingValue</p>
+<button @onclick="ChangeValue">Change Text</button>
+
+@code {
+	[CascadingParameter(Name = "CascadingValue")] private int cascadingValue { get; set; }
+	[Parameter] public Action<int> Action { get; set; }
+
+
+	private void ChangeValue()
+	{
+		Random r = new Random();
+
+		Action?.Invoke(r.Next(0,101));
+	}
+}

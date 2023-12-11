@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\uge50CascadingParametersExp.props" />
+</Project>

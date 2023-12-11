@@ -1,0 +1,19 @@
+﻿@page "/"
+
+<PageTitle>Index</PageTitle>
+
+<CascadingValue Value="@cascadingValue" Name="CascadingValue">
+    <CascValue Action="ChangeValue"></CascValue>
+</CascadingValue>
+
+
+
+@code {
+    private int cascadingValue { get; set; } = 42;
+
+    private void ChangeValue(int newInt)
+    {
+        cascadingValue = newInt;
+        StateHasChanged();
+    }
+}
