@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bruger\\Desktop\\Studie\\GitHub\\MyCode\\Opgave_Kode\\Code\\uge50CascadingParametersExp\\uge50CascadingParametersExp\\uge50CascadingParametersExp.csproj": {}
+    "C:\\Users\\Johan\\OneDrive\\Skrivebord\\CascadingValues\\uge50CascadingParametersExp\\uge50CascadingParametersExp\\uge50CascadingParametersExp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bruger\\Desktop\\Studie\\GitHub\\MyCode\\Opgave_Kode\\Code\\uge50CascadingParametersExp\\uge50CascadingParametersExp\\uge50CascadingParametersExp.csproj": {
+    "C:\\Users\\Johan\\OneDrive\\Skrivebord\\CascadingValues\\uge50CascadingParametersExp\\uge50CascadingParametersExp\\uge50CascadingParametersExp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bruger\\Desktop\\Studie\\GitHub\\MyCode\\Opgave_Kode\\Code\\uge50CascadingParametersExp\\uge50CascadingParametersExp\\uge50CascadingParametersExp.csproj",
+        "projectUniqueName": "C:\\Users\\Johan\\OneDrive\\Skrivebord\\CascadingValues\\uge50CascadingParametersExp\\uge50CascadingParametersExp\\uge50CascadingParametersExp.csproj",
         "projectName": "uge50CascadingParametersExp",
-        "projectPath": "C:\\Users\\Bruger\\Desktop\\Studie\\GitHub\\MyCode\\Opgave_Kode\\Code\\uge50CascadingParametersExp\\uge50CascadingParametersExp\\uge50CascadingParametersExp.csproj",
-        "packagesPath": "C:\\Users\\Bruger\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bruger\\Desktop\\Studie\\GitHub\\MyCode\\Opgave_Kode\\Code\\uge50CascadingParametersExp\\uge50CascadingParametersExp\\obj\\",
+        "projectPath": "C:\\Users\\Johan\\OneDrive\\Skrivebord\\CascadingValues\\uge50CascadingParametersExp\\uge50CascadingParametersExp\\uge50CascadingParametersExp.csproj",
+        "packagesPath": "C:\\Users\\Johan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Johan\\OneDrive\\Skrivebord\\CascadingValues\\uge50CascadingParametersExp\\uge50CascadingParametersExp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Bruger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Johan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -64,7 +64,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[6.0.13, 6.0.13]"
+              "version": "[6.0.15, 6.0.15]"
             }
           ],
           "frameworkReferences": {
@@ -72,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

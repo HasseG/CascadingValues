@@ -5,7 +5,10 @@
 <p>This is a cascading value: @cascadingValue</p>
 <button @onclick="ChangeValue">Change Text</button>
 
+@*<p>This is a cascading value: @cascadingValue</p>*@
+
 @code {
+	//[CascadingParameter] int cascadingValue { get; set; }
 	[CascadingParameter(Name = "CascadingValue")] private int cascadingValue { get; set; }
 	[Parameter] public Action<int> Action { get; set; }
 

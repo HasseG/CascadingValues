@@ -6,9 +6,14 @@
     <CascValue Action="ChangeValue"></CascValue>
 </CascadingValue>
 
+@*<CascadingValue Value="@cascadingValue">
+    <CascValue></CascValue>
+</CascadingValue>*@
+
 
 
 @code {
+    //int cascadingValue = 42;
     private int cascadingValue { get; set; } = 42;
 
     private void ChangeValue(int newInt)
